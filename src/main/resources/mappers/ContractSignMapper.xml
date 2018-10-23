@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.luban.command.contractsign.dao.ContractSigndao">
+
+    <!--<resultMap id="UserBaseMap" type="com.luban.command.entity.User">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="username" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="phone" property="phone" jdbcType="VARCHAR"/>
+    </resultMap>-->
+
+    <select id="queryContractNum" resultType="Integer">
+       /*查询合同数量*/
+
+    </select>
+
+    <select id="queryContractAmount" resultType="double">
+        /*查询合同金额*/
+    </select>
+
+    <select id="querySiteNumByEngineeringName" resultType="Integer">
+       /*根据工程名称查询工地数量*/
+
+    </select>
+
+    <select id="queryCiviSiteNumByEngineeringName" resultType="Integer">
+      /*根据工程名称查询文明工地数量*/
+
+    </select>
+
+    <select id="queryAreaNumByName" resultType="Integer">
+      /*根据地区名查询地区数量*/
+
+    </select>
+
+    <select id="querySiteName" resultType="String">
+      /*查询工地名称*/
+
+    </select>
+
+    <select id="queryAreaName" resultType="String">
+      /*查询地区名称*/
+
+    </select>
+
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.luban.command.notice.dao.NoticeDao">
+
+    <!--<resultMap id="UserBaseMap" type="com.luban.command.entity.User">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="username" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="phone" property="phone" jdbcType="VARCHAR"/>
+    </resultMap>-->
+
+    <select id="queryNotice" resultType="String">
+
+
+    </select>
+
+    <select id="queryNoticeDetialByNotice" resultType="String">
+
+
+    </select>
+
+</mapper>
